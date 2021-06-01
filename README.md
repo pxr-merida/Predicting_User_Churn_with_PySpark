@@ -10,16 +10,16 @@ You can use this repo to learn how to deal with big data using Spark and build u
 
 Here a Machine Learning model is developed to predict user churn by user behavior events in a music streaming app.
 The steps followed in the development:
-####1. Data preprocessing
+#### 1. Data preprocessing
 Loading and clean of the dataset. Invalid or missing data like records without userids or sessionids are handled. 
-####2. Exploratory Data Analysis (EDA)
+#### 2. Exploratory Data Analysis (EDA)
 EDA is performed with Spark functionalities. 
-####3. Feature Engineering
+#### 3. Feature Engineering
 For the model label 'Churn' is defined from Cancellation Confirmation events which includes paid and free users. 
 EDA is performed to observe user behaviour in churn and illustrated with plots.
 Aggregates on these two groups of users, observing how much of a specific action they experienced per a certain 
 time unit and number of songs played are explored.
-####4.  Training of the Model and Parameter Tuning
+#### 4.  Training of the Model and Parameter Tuning
 The full dataset split into train, test, and validation sets. 
 Logistic Regression, Random Forest Classifier, GBT Classifier, Linear SVC and Naive Bayes 
 Machine learning methods are tested. The accuracy of the models are measured and reported.
